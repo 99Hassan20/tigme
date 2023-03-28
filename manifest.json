@@ -1,0 +1,12 @@
+{
+    "name": "TIG ME",
+    "version": "0.0.1",
+    "description": "disables the tig me button on the intranet",
+    "content_scripts": [
+        {
+            "matches": ["https://shop.intra.42.fr/"],
+            "js": ["tigme.js"]
+        }
+    ],
+    "manifest_version": 3
+}
