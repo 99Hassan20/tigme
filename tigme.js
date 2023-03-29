@@ -1,3 +1,2 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("ready");
-});
+console.log("ready");  
+document.querySelector(".btn-primary").disabled = true;
